@@ -25,9 +25,6 @@ const Fullscreen: FC<FullscreenProps> = ({ style, className, title }) => {
       title={fullscreen ? titleExit : titleRequest}
       className={className}
       style={{
-        position: "absolute",
-        right: 0,
-        top: 0,
         cursor: "pointer",
         ...style,
       }}
